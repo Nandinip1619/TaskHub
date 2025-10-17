@@ -1,7 +1,9 @@
-export default function Progresstracker() {
+export default function Progresstracker({tasks}) {
+
+    const completedTasks = tasks.filter((task))
     return (
         <div>
-            <h1>Progress Tracker Component</h1>
+           
         </div>
     )
 }
